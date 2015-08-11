@@ -94,6 +94,7 @@ class Partner {
 		retV
 	}
 	
+	//speichert die Uri einer Fremdanwendung
 	static Boolean saveRueckUri(String anwendung, String uri) {
 		boolean retV = false
 		def RestBuilder rest = new RestBuilder()
